@@ -10,8 +10,8 @@ const RewardsPointTable = ({rewardsPointData}) => {
       <Table aria-label="collapsible table">
         <TableHeader />
         <TableBody>
-          {rewardsPointData.map((row) => (
-            <Row key={row.name} row={row} />
+          {rewardsPointData.map((row, index) => (
+            <Row key={`header-${index}`} row={row} />
           ))}
         </TableBody>
       </Table>

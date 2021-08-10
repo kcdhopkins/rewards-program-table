@@ -15,7 +15,7 @@ const TableHeader = ()=>{
         <TableHead>
             <TableRow>
                 <TableCell />
-                {headerData.map( name => <TableCell>{name}</TableCell> )}
+                {headerData.map( (name, index) => <TableCell key={`index-${index}`}>{name}</TableCell> )}
             </TableRow>
         </TableHead>
     )
