@@ -14,6 +14,10 @@ const useStyles = makeStyles({
   },
   tableHeader:{
     margin: "10px"
+  },
+  middle:{
+    display: 'flex',
+    justifyContent: 'center',
   }
 })
 
@@ -31,12 +35,16 @@ const App = () => {
 
   return (
     <Grid container className={classes.center}>
-      <Grid item xs = {6}>
+      <Grid container item xs = {6}>
         <Paper>
-          <Typography variant="h5" className={classes.tableHeader}>
-            User Rewards Table
-          </Typography>
-          <RewardsPointTable rewardsPointData={rewardsPointData}/>
+          <Grid item xs={12} className={classes.middle}>
+            <Typography variant="h5" className={classes.tableHeader}>
+              User Rewards Table
+            </Typography>
+          </Grid>
+          <Grid item>
+            <RewardsPointTable rewardsPointData={rewardsPointData}/>
+          </Grid>
         </Paper>
       </Grid>
     </Grid>
