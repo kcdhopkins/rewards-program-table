@@ -11,7 +11,7 @@ const RewardsPointTable = ({rewardsPointData}) => {
         <TableHeader />
         <TableBody>
           {rewardsPointData.map((row, index) => (
-            <Row key={`header-${index}`} row={row} />
+            <Row key={`header-${index}`} row={row}/>
           ))}
         </TableBody>
       </Table>
