@@ -1,8 +1,31 @@
 export const transactionData = [
     {
-        "id": "099",
-        "fullName": "Usagi",
+        "id": "094",
+        "fullName": "Alvin",
         "transactionAmount": "120.00",
+        "dateCreated": "2021/08/03"
+    },
+    {
+        "id": "095",
+        "fullName": "Simon",
+        "transactionAmount": "100.00",
+        "dateCreated": "2021/08/03"
+    },
+    {
+        "id": "096",
+        "fullName": "Theodore",
+        "transactionAmount": "50.00",
+        "dateCreated": "2021/08/03"
+    },{
+        "id": "097",
+        "fullName": "George",
+        "transactionAmount": "101.00",
+        "dateCreated": "2021/08/03"
+    },
+    {
+        "id": "098",
+        "fullName": "Zack",
+        "transactionAmount": "51.00",
         "dateCreated": "2021/08/03"
     },
     {
@@ -34,12 +57,6 @@ export const transactionData = [
         "fullName": "Deku",
         "transactionAmount": "13.35",
         "dateCreated": "2021/03/14"
-    },
-    {
-        "id": "106",
-        "fullName": "Bulma",
-        "transactionAmount": "798.92",
-        "dateCreated": "2021/07/28"
     },
     {
         "id": "107",
