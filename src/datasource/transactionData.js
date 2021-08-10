@@ -3,24 +3,24 @@ export const transactionData = [
         "id": "094",
         "fullName": "Alvin",
         "transactionAmount": "120.00",
-        "dateCreated": "2021/08/03"
+        "dateCreated": "2021/06/13"
     },
     {
         "id": "095",
         "fullName": "Simon",
         "transactionAmount": "100.00",
-        "dateCreated": "2021/08/03"
+        "dateCreated": "2021/05/29"
     },
     {
         "id": "096",
         "fullName": "Theodore",
         "transactionAmount": "50.00",
-        "dateCreated": "2021/08/03"
+        "dateCreated": "2021/06/19"
     },{
         "id": "097",
         "fullName": "George",
         "transactionAmount": "101.00",
-        "dateCreated": "2021/08/03"
+        "dateCreated": "2021/07/03"
     },
     {
         "id": "098",
