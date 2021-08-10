@@ -1,5 +1,11 @@
 export const transactionData = [
     {
+        "id": "099",
+        "fullName": "Usagi",
+        "transactionAmount": "120.00",
+        "dateCreated": "2021/08/03"
+    },
+    {
         "id": "100",
         "fullName": "Son Goku",
         "transactionAmount": "421.95",

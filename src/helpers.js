@@ -21,7 +21,7 @@ export const rewardsPointsCalulated =(transactionData)=>{
         const isAfterThreeMonths = afterThreeMonths(dateCreated)
         if(isAfterThreeMonths){
             const parsedAmount = parseInt(transactionAmount)
-            const point1Total = parsedAmount >= 50 && parsedAmount ? parsedAmount - 50 : 0
+            const point1Total = parsedAmount <= 50 ? 0 : (parsedAmount > 50 && parsedAmount < 100) ? parsedAmount - 50 : 50
             const point2Total = parsedAmount >= 100 && parsedAmount ? (parsedAmount - 100) * 2 : 0
             return createDateSet(transaction, point1Total, point2Total)
         } else {
