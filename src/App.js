@@ -13,8 +13,7 @@ const useStyles = makeStyles({
     alignItems: 'center'
   },
   tableHeader:{
-    position: "absolute",
-    left: "42%"
+    margin: "10px"
   }
 })
 
